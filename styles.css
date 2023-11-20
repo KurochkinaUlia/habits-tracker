@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #d1daf5;
+    font-family: 'Comfortaa', cursive;
+}
+
+.main {
+    /*border: 1px solid red;*/
+    display: flex;
+}
+
+.menu {
+    /*border: 1px solid black;*/
+    background-color: white;
+    width: 150px;
+    height: 100vh;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+
+}
+
+.menu__logo {
+    /*border: 1px solid #e72285;*/
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu__logo__img {
+    width: 66px;
+    height: 71px;
+}
+
+
+
+.menu__list {
+    /*border: 1px solid #b37de5;*/
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu__list__button {
+    border: none;
+    width: 46px;
+    height: 45px;
+    border-radius: 14px;
+    margin: 25px;
+    box-shadow: 0 2px 5px 0 rgba(62, 107, 224, 12%);
+    cursor: pointer;
+}
+.menu__list__button:hover {
+    background-color: #6A6AFB;
+}
+.menu__list__button:active {
+    background-color: #5051F9;
+}
+
+.menu__add {
+    /*border: 1px solid black;*/
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu__list__button__add {
+    border: 1px solid #CAD5FF;
+}
+
+.content {
+    /*border: 1px solid #53ce15;*/
+}
